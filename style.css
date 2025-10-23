@@ -1,0 +1,286 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.conteiner{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #e1ede6;
+    padding: 31px 0;
+}
+
+.header-conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-navigation{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header-list-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-item{
+    margin-right: 50px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero-link{
+    text-decoration: none;
+    color: #598d66;
+    font-size: 20px;
+}
+
+.hero-title{
+    font-size: 80px;
+}
+
+.hero-pharagraph{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: rgb(143, 143, 143);
+}
+
+span{
+    color: #598d66;
+}
+
+.hero-link{
+    font-size: 25px;
+    border: 1px solid #598d66;
+    padding: 20px 50px;
+}
+
+.catalog-margin{
+    margin-bottom: 70px;
+}
+
+.catalog-arts-conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-head-container{
+    margin: 0 auto;
+}
+
+.catalog-buttons{
+    display: flex;
+    list-style: none;
+}
+
+.catalog-header{
+    font-size: 37px;
+}
+
+.catalog-button1,
+.catalog-button2,
+.catalog-button3{
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: rgba(40, 243, 40, 0.13);
+    border-color: rgba(40, 243, 40, 0.13);
+    width: 100px;
+    height: 40px;
+    font-size: 23px;
+    transition: color 0.3 ease;
+}
+
+
+
+.art-conteiner1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.art{
+    display: flex;
+    flex-direction: column;
+    min-height: 780px;
+    background-color: rgba(40, 243, 40, 0.13);
+    margin: 10px;
+}
+
+.art-bottom{
+    margin: 0 15px;
+}
+
+.art-conteiner2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.art-img{
+    width: 400px;
+}
+
+.art1-header,
+.art2-header,
+.art3-header,
+.art4-header,
+.art5-header,
+.art6-header{
+    margin: 5px 0 5px 0;
+    font-size: 30px;
+}
+
+.art1-pharagraph1,
+.art2-pharagraph1,
+.art3-pharagraph1,
+.art4-pharagraph1,
+.art5-pharagraph1,
+.art6-pharagraph1{
+    color: rgb(143, 143, 143);
+    margin: 5px 0 5px 0;
+}
+
+.price{
+    color: #598d66;
+    margin: 5px 0 25px 0;
+    font-size: 25px;
+}
+
+.art1-link,
+.art2-link,
+.art3-link,
+.art4-link,
+.art5-link,
+.art6-link{
+    border: 1px solid #598d66;
+    padding: 20px 140px;
+    text-decoration: none;
+    color: #598d66;
+    text-align: center;
+}
+
+.newbies{
+    background-image: url("pic_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.newbie-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.newbie-title{
+    display: flex;
+}
+
+.newbie-header{
+    color: white;
+    margin-left: 10px;
+}
+
+.newbie-pharagraph{
+    color: white;
+    margin: 25px 0 25px 0;
+}
+
+.newbie-link{
+    border: 1px solid yellow;
+    padding: 20px 50px;
+    text-decoration: none;
+    background-color: yellow;
+    max-width: 100px;
+}
+
+.newbie-container2{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.about{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+}
+
+.about-container-pharagraph{
+    max-width: 550px;
+}
+
+.footer{
+    background-color: #e1ede6;
+}
+
+.footer-conteiner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-pharagraph,
+.country1,
+.country2,
+.country3,
+.year1,
+.year2,
+.profession1,
+.profession2,
+.social-media-p1,
+.social-media-p2{
+    color: rgb(143, 143, 143);
+}
+
+.number-container{
+    margin-top: 20px;
+}
+
+.social-media-container{
+    margin-top: 20px;
+}
